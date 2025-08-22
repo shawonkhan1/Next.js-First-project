@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro",
+    "description": "Latest Apple smartphone with A17 Bionic chip.",
+    "price": 1199,
+    "category": "Smartphone",
+    "brand": "Apple",
+    "stock": 25,
+    "rating": 4.8,
+    "releaseDate": "2025-09-20",
+    "image": "https://i.ibb.co.com/6f7wnBP/iphonejpg-720x720q80.jpg"
+  },
+
+  {
+    "id": 2,
+    "name": "MacBook Air M3",
+    "description": "Lightweight laptop powered by Apple M3 chip.",
+    "price": 1499,
+    "category": "Laptop",
+    "brand": "Apple",
+    "stock": 12,
+    "rating": 4.7,
+    "releaseDate": "2025-08-15",
+    "image": "https://i.ibb.co.com/fdGhYMDW/m3-macbook-air.webp"
+  },
+  {
+    "id": 3,
+    "name": "Sony WH-1000XM5",
+    "description": "Noise-cancelling wireless headphones.",
+    "price": 399,
+    "category": "Headphones",
+    "brand": "Sony",
+    "stock": 40,
+    "rating": 4.5,
+    "releaseDate": "2025-07-10",
+    "image": "https://i.ibb.co.com/xtnRqhp9/Sony-WH-1000-XM5.jpg"
+  }
+]
