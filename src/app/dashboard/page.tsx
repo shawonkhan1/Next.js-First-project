@@ -6,6 +6,7 @@ import DashboardContent from "./DashboardContent"; // এই component টি cl
 export default async function DashboardPage() {
   // session check
   const session = await getServerSession(authOptions);
+console.log(session,"this is sesion");
 
   if (!session) {
     // login না থাকলে home page-এ redirect
@@ -13,5 +14,5 @@ export default async function DashboardPage() {
   }
 
   // session আছে → dashboard content দেখাবে
-  return <DashboardContent />;
+  else{ return <DashboardContent />}
 }
