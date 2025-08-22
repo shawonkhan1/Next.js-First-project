@@ -9,9 +9,9 @@ export const authOptions: AuthOptions = {
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
   ],
-  session: {
-    strategy: "jwt" as SessionStrategy, // ✅ Explicit type cast
-  },
+  // session: {
+  //   strategy: "jwt" as SessionStrategy, //  Explicit type cast
+  // },
   secret: process.env.NEXTAUTH_SECRET,
 };
 
